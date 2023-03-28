@@ -9,6 +9,7 @@ body {
   width: 100vw;
   height: 100vh;
   margin: 0;
+  flex-direction: column;
   overflow-x: hidden;
 }
 
@@ -170,7 +171,5 @@ button.forumButton:hover{
   color: black;
 }
 footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
+  margin-top: auto;
 }
