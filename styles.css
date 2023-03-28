@@ -78,7 +78,7 @@ img.main-logo {
 span.service-card {
   display: inline-flex;
   /*border: 2px ridge var(--nav-bar);*/
-  border-radius: 1vw;
+  border-radius: .5vw;
   background-color: black;
   color: white;
   padding: 1em;
@@ -89,7 +89,7 @@ span.service-card a {
 }
 
 span.service-card a img {
-  width: 10vw;
+  width: 10%;
   height: auto;
 }
 
