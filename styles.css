@@ -76,7 +76,7 @@ img.main-logo {
 }
 
 span.service-card {
-  display: inline-block;
+  display: inline-flex;
   /*border: 2px ridge var(--nav-bar);*/
   border-radius: 1vw;
   background-color: black;
