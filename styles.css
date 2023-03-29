@@ -152,8 +152,8 @@ textarea {
   resize: none;
 }
 span.threads{
-  padding-right: 80px;
-  padding-left: 80px;
+  padding-right: 20%;
+  padding-left: 20%;
 }
 button.forumButton{
   background-color: black; 
