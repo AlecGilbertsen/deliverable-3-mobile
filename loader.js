@@ -1,4 +1,4 @@
-if (screen.width > 1000 /*CHECK TO SEE IF THE SCREEN IS LARGE ENOUGH*/) {
+if (window.screen.width > 1000 /*CHECK TO SEE IF THE SCREEN IS LARGE ENOUGH*/) {
     let p5jsElement = document.createElement("script");
     p5jsElement.setAttribute(
       "src",
