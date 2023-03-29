@@ -146,6 +146,8 @@ span.form-field {
 
 form table {
   width: 100%;
+  padding-right: 5%;
+  padding-left: 5%;
 }
 
 textarea {
