@@ -1,6 +1,4 @@
-window.onload=function(){
-w = document.documentElement.clientWidth || document.body.clientWidth || window.innerWidth;
-if (w > 800 /*CHECK TO SEE IF THE SCREEN IS LARGE ENOUGH*/) {
+if (window.width >= 800 /*CHECK TO SEE IF THE SCREEN IS LARGE ENOUGH*/) {
     let p5jsElement = document.createElement("script");
     p5jsElement.setAttribute(
       "src",
@@ -15,4 +13,3 @@ if (w > 800 /*CHECK TO SEE IF THE SCREEN IS LARGE ENOUGH*/) {
     document.body.appendChild(gooElement);
   } else {
   }
-}
